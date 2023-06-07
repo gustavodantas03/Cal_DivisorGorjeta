@@ -1,0 +1,73 @@
+body {
+   display: flex;
+   width: auto;
+   justify-content: center;
+   align-items: center;
+   height: 120vh;
+   margin: 10;
+   background-color: #dbdff5;
+ }
+ 
+ .container {
+   background-color: #ffffff;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   width: 400px;
+   max-width: 100%;
+ }
+ 
+ .title {
+   text-align: center;
+   margin-top: 0;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   background-color: #e0edd8;
+   border-radius: 5px;
+   box-shadow: 0px 0px 15px rgba(5, 0, 1, 0.1)
+ }
+ 
+ .tipsForm {
+   margin-bottom: 20px;
+   font-weight: 550;
+ }
+ 
+ .formInput,
+ .formSelect {
+   width: 60%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ .customer {
+   margin-bottom: 20px;
+ }
+ 
+ .products {
+   display: flex;
+   gap: 10px;
+ }
+ 
+ .formButton {
+   display: block;
+   width: 99%;
+   padding: 8px;
+   background-color: #1a1d3a;
+   color: #fff;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-bottom: 4px;
+ }
+ 
+ #totalTip {
+   display: none;
+   text-align: center;
+   padding: 10px;
+   background-color: #f9f9f9;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+
